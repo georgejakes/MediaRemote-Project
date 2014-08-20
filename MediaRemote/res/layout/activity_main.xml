@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/bPrevious"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Previous" />
+    
+    <Button
+        android:id="@+id/bVup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Volume Up" />
+    
+    <Button
+        android:id="@+id/bPlay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Play/Pause" />
+    
+    
+    <Button
+        android:id="@+id/bVdwn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Volume Down" />
+    
+    <Button
+        android:id="@+id/bNext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Next" />
+    
+    
+    
+    <Button
+        android:id="@+id/bReconnect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Re-Connect" />
+    
+    <Button
+        android:id="@+id/bMouse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Use Mouse" />
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Status" />
+
+</LinearLayout>
